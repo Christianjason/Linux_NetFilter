@@ -1,0 +1,5 @@
+insmod hello.ko
+use "dmesg -c" watch module init print
+
+rmmod
+use "dmesg -c" watch module init print
